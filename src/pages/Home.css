@@ -1,0 +1,9 @@
+.home-title {
+  margin: 1rem;
+}
+.meetup-list {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
+  flex-wrap: wrap;
+}

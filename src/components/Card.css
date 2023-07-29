@@ -1,0 +1,45 @@
+.card-article {
+  position: relative;
+  cursor: pointer;
+}
+.card-img-container {
+  width: 200px;
+  height: 200px;
+}
+.card-img-container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+}
+.card-date-container {
+  color: gray;
+  padding: 2px 0;
+}
+.card-date-container p {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.date-time-separator {
+  display: inline-block;
+  height: 4px;
+  width: 4px;
+  background-color: gray;
+  /* text-align: center; */
+  border-radius: 50%;
+}
+.btn {
+  background-color: whitesmoke;
+  color: black;
+  border: none;
+  padding: 2px;
+  border-radius: 10px;
+}
+.event-type-btn {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  margin: 5px;
+  border-radius: 10px;
+  padding: 5px;
+}
